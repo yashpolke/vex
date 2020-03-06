@@ -1,5 +1,5 @@
-Bend multiples curves randomly:
-
+***Bend multiples curves randomly:***
+```ruby
 float seed = chf('seed');
 int points[] = primpoints(0, @primnum); 
 
@@ -21,6 +21,7 @@ for (int n=0; n<len(points); n++){
     
     setpointattrib(0, "P", points[n], new_pos); 
     }
+ ```
 ------------------------------------------------------------------------------------------------------------------------
 
 
